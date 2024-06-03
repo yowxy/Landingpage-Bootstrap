@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body{
+            padding-top: 56px;
+
+        }
+        .jumbotron{
+           text-shadow: #6a6565 1px 1px;
+        }
+        .background-header{
+            background-image: url(images/Info\ jurusan_DKV.jpeg);
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .button-dark{
+            background-color: blue;
+            color: aliceblue;
+            text-shadow: 0px 0px ;
+        }
+        .button-dark:hover{
+            background-color: black;
+            color: white;
+            text-shadow: 0px 0px ;
+        }
+        .service-style{
+            margin-top: 15px;
+            background-color: #ffffff;
+        }
+        .text-green{
+            color: greenyellow;
+        }
+        .bg-red{
+            background-color:red;
+        }
+        h2:before,
+        h2:after {
+        background-color: #0b9b6b;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 25%;
+        }
+        h2:before {
+        right: 0.5em;
+        margin-left: -50%;
+        }
+        h2:after {
+        left: 0.5em;
+        margin-right: -50%;
+        }
+        .button-sekunder{
+            background-color: #6a6565;
+            border-color: #000000;
+            box-shadow: 10px;
+            color: white;
+        }
+        .button-sekunder:hover{
+            background-color: black;
+            color: #ffffff;
+        }
+        .cover{
+            background: no-repeat center/cover;
+        }
+        .button-primer{
+            background-color: #0b9b6b;
+            color: whitesmoke;
+        }
+        .button-primer:hover{
+            background-color: #24624d;
+            color: whitesmoke;
+            border-radius: 15px;
+        }
+   
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+             <a class="navbar-brand" href="#"><img src="images/press-codepolitan--md5--c6cd986bfb1be889708b672e982814e0.png " class="img"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#services">Service</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#product">Product</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                   </li>
+                </ul>
+           </div>
+      </div>
+    </nav>
+    <section class="jumbotron jumbroton-fluid background-header">
+        <div class="container-fluid text-center">
+            <h1 class="display-3"style="color:#000000;">Hello World</h1>
+            <p class="lead" style="font-weight:bold; color: #000000;">Kami menyediakan berbagai layanan Web Desingn</p>
+            <p><a href="#" class="btn button-dark btn-lg" role="button ">Yok gunakan jasa kami!</a>
+            
+                <a href="#" class="btn btn-secondary btn-lg"style="text-shadow" role="button ">Pelajari lebih lanjut</a>
+            </p>
+        </div>
+    </section>
+    <section id="services" class="container-fluid- service-style">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+               <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Mengapa memilih kami?</h2>
+               </div>
+             <div class="col-12 col-sm-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                   <i class="fas fa-list-ol fa-stack-1x text-white"></i>                  
+                </span>
+
+               <h3 class="mt-4">Fasilitas Oke</h3>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+              </div>
+
+              <div class="col-12 col-sm-6 col-lg-3">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                   <i class="fas fa-laptop-code fa-stack-1x text-white"></i>                  
+                </span>
+                 
+                 <h3 class="mt-4">Modul Lengkap</h3>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+               </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x text-green"></i>
+                       <i class="fas fa-money-bill fa-stack-1x text-white"></i>                  
+                    </span>
+
+               
+                  <h3 class="mt-4">Biaya Terjangkau</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-circle fa-stack-2x text-green"></i>
+                       <i class="fas fa-chart-line fa-stack-1x text-white"></i>                  
+                    </span>
+
+                  <!-- <i class="fas fa-chart-line"></i> -->
+                   <h3 class="mt-4">Terarah</h3>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+                </div>
+                <div class="col-12 pt-3 mb-5">
+                    <a class="btn text-white bg-red btn-lg" target="_blank" href="#" role="button">More Option</a>
+                </div>
+          </div>    
+    </section>
+
+        <section id="product" class="container">
+            <div class="row text-center">
+                <div class="col-12 pb-4">
+                    <h2 class="display-4 text-center mb-4" style="margin-top: 5rem!important;">Produk kami</h2>
+                </div>    
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/btc.jpg" alt="Product 1" class="card-img-top" style="max-height: 400px;">
+                            <div class="card-body" style="min-height: 250px;">
+                                <h4 class="card-title">Blockchain Course</h4>
+                                <P class="card-text">Blockchain Developer for beginnners , Who want to learn about Blockchain</P>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn button-sekunder">Pelajari lebih lanjut</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/untitlsssssed.png" alt="Product 2" class="card-img-top" style="max-height: 400px;">
+                            <div class="card-body" style="min-height: 250px;">
+                                <h4 class="card-title">Fullstack Developer Course</h4>
+                                <P class="card-text">We will teach you from zero to hero in this online course to become Fullstack Developer</P>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn button-sekunder">Pelajari lebih lanjut</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/Untitled.png" alt="Product 3" class="card-img-top" style="max-height: 400px;">
+                            <div class="card-body" style="min-height: 250px;">
+                                <h4 class="card-title">Cryptocurrency</h4>
+                                <P class="card-text">In this generation Cryptocurrency is the best asset for the future</P>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn button-sekunder">Pelajari lebih lanjut</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+          
+        </section>
+
+        <section id="about" class="bg-light">
+            <div class="container-fluid-max">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important;">Tentang kami </h2>  
+                <div class="row no-gutters">
+                    <div class="col-12 col-md-6">
+                        
+                        <div style="padding: 15px;">
+                            <h3 class="display-5 text-center text-black mt-3 mb-3">Our Journey to become a Ai Specialist</h3>
+                            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ratione, quam eius amet nobis facere odit excepturi porro quis quod praesentium provident? Harum dolorem expedita ipsa velit doloribus, corporis quia!</p>
+
+                            <div class="col-12 pt-3 text-center">
+                                <a href="" class="btn bg-secondary btn-lg text-white">Preview</a>
+                            </div>
+                        </div>
+
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class=" vh-100 cover" style="background-image: url('images/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg');"></div>
+                      </div>
+
+                      <div class="col-12 col-md-6">
+                        <div class=" vh-100 cover" style="background-image: url('images/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg');"></div>
+                      </div>
+
+                      <div class="col-12 col-md-6">
+                        <div style="padding: 15px;">
+
+                            <h3 class="display-5 text-center text-black mt-3 mb-3 ">Our Team</h3>
+                            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facilis illo sit. Error sed iusto minima esse, consequatur, in eveniet explicabo ipsum incidunt recusandae obcaecati repellendus modi, dolore dignissimos doloremque?</p>
+
+                            <div class="col-12 pt-3 text-center">
+                                <a class="btn bg-secondary btn-lg text-white">Pereview</a>
+                            </div>
+
+
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container-fluid text-center" style="background-color: #e9f2eb; padding-top: 35px;">
+            <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+            <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami.</p>
+            <a href="#" class="btn button-primer btn-lg mb-4">WhatsApp Kami</a>
+       </section>
+        
+        <footer  class="bg-dark">
+
+            <div class="col-lg-12" style="padding: 10px;"></div>
+            <div style="text-align: center;">
+                
+                <a href="#" class="text-light" style="padding: 5px;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="text-light" style="padding: 5px;"><i class=" fab fa-instagram"></i></a>
+                <a href="#" class="text-light" style="padding: 5px;"><i class=" fab fa-github"></i></a>
+            </div>
+            <p class="text-center text-secondary">Copyright Hello world</p>
+        </footer>    
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+        <script src="https://kit.fontawesome.com/b8a5377299.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
